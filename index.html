@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment - Student Table</title>
+    <style>
+        /* የሰንጠረዡ አጠቃላይ ገጽታ */
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+            font-family: Arial, sans-serif;
+        }
+        th, td {
+            border: 2px solid black;
+            padding: 12px;
+            text-align: center;
+            font-weight: bold;
+        }
+
+        /* ዓምዶቹን በደብተርህ መሠረት ቀለም መስጠት */
+        .red-col { background-color: red; color: white; }
+        .blue-col { background-color: blue; color: white; }
+        .green-col { background-color: green; color: white; }
+        .yellow-col { background-color: yellow; color: black; }
+        .violet-col { background-color: violet; color: white; }
+
+        h2 {
+            font-family: Arial, sans-serif;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+
+    <h2>Output on the Browser</h2>
+
+    <table>
+        <thead>
+            <tr>
+                <th class="red-col">S.No</th>
+                <th>Name</th>
+                <th class="blue-col">Age</th>
+                <th class="green-col">Sex</th>
+                <th class="yellow-col">Grade</th>
+                <th class="violet-col">Name of School</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td class="red-col">1</td>
+                <td>Samuel</td>
+                <td class="blue-col">12</td>
+                <td class="green-col">M</td>
+                <td class="yellow-col">11</td>
+                <td class="violet-col">Freshwot</td>
+            </tr>
+            <tr>
+                <td class="red-col">2</td>
+                <td>Haftamu</td>
+                <td class="blue-col">11</td>
+                <td class="green-col">M</td>
+                <td class="yellow-col">11</td>
+                <td class="violet-col">Freshwot</td>
+            </tr>
+            <tr>
+                <td class="red-col">3</td>
+                <td>Mulu-tese</td>
+                <td class="blue-col">13</td>
+                <td class="green-col">M</td>
+                <td class="yellow-col">11</td>
+                <td class="violet-col">Freshwot</td>
+            </tr>
+        </tbody>
+    </table>
+
+</body>
+</html>
